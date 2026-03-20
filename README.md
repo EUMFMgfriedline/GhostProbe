@@ -7,16 +7,16 @@
 chmod +x ghostprobe.sh
 ./ghostprobe.sh example.com
 
-⚙️ Workflow
+##⚙️ Workflow
 Subfinder → httpx → Nuclei (high/crit) → JSON/CSV reports
 
-📈 Features
+##📈 Features
 16+ live subdomains/hour (4GB droplet)
 H1/Bugcrowd formatted reports
 Ethical takeover POC workflow
-Rate-limited (abuse-proof)
-Mass scan excluded (enterprise only)
-🛡️ Production Proof
+Rate-limited (abuse-proof) Mass scan excluded (enterprise only)
+
+##🛡️ Production Proof
 $ ./ghostprobe.sh hackerone.com
 ✅ mta-sts.managed.hackerone.com [GitHub takeover]
 ✅ mta-sts.hackerone.com [GitHub takeover]
