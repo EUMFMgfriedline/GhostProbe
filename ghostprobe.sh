@@ -35,7 +35,7 @@ check_scan_limit() {
     COUNT=$((COUNT + 1))
     if [[ $COUNT -gt $FREE_SCAN_LIMIT ]]; then
       echo "❌ Free limit reached ($FREE_SCAN_LIMIT scans/day)."
-      echo "   Upgrade: https://gumroad.com/YOUR_LINK"
+      echo "🔓 Upgrade to Pro: https://eumf.gumroad.com/l/Ghostprobe"
       exit 1
     fi
     sed -i "2s/.*/$COUNT/" "$SCAN_COUNT_FILE"
