@@ -23,17 +23,13 @@ $ ./ghostprobe.sh hackerone.com
 ✅ mta-sts.forwarding.hackerone.com [GitHub takeover]
 
 Full POC: hacker0x01
-💰 Freemium
-TierFeaturesPrice
-Free
-1k scans/day, community templates
-$0
-Pro
-Unlimited + AI triage
-$29/mo
-Enterprise
-Custom agents + mass scan
-Contact
+## 💰 Freemium
+| Tier       | Features                                      | Price   |
+|------------|-----------------------------------------------|---------|
+| Free       | 5 scans/day, community templates              | $0      |
+| Pro        | Unlimited + AI triage + priority updates      | $29/mo  |
+| Enterprise | Custom agents + mass scan + dedicated support | Contact |
+
 📄 License
 MIT - See LICENSE
 
